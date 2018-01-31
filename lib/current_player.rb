@@ -12,9 +12,9 @@ end
 def current_player(board)
     counter = turn_count(board)
     if counter.odd?
-      player = "X"
-    else
       player = "O"
+    else
+      player = "X"
     end
     return player
 end
