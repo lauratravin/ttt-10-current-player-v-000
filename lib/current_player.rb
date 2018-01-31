@@ -16,5 +16,5 @@ def current_player(counter)
     else
       player = "O"
     end
-    return player
+    return "player"
 end
