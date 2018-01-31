@@ -11,8 +11,8 @@ end
 
 def current_player(counter)
     if counter.odd?
-      print "X"
+      player = "X"
     else
-      print "O"
+      player = "O"
     end
 end
