@@ -12,7 +12,7 @@ end
 def current_player(counter)
     if counter.odd?
       puts "X"
-    else   
+    else
       puts "O"
     end  
 end
